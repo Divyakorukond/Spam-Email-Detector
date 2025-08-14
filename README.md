@@ -15,7 +15,7 @@ It also includes a **Chrome Extension** that automatically checks Gmail messages
 ---
 
 ## 📂 Project Structure
-'''
+```
 Spam_email/
 │── spam_api/
 │ ├── app.py # FastAPI backend
@@ -36,7 +36,7 @@ Spam_email/
 │── README.md
 │── .gitignore
 
-'''
+```
 
 
 ## 🛠 Setup & Installation
