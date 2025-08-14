@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detector</title>
+    <style>
+        body {
+            width: 250px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        textarea {
+            width: 100%;
+            resize: none;
+            padding: 5px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 8px;
+            padding: 6px;
+            width: 100%;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fraud Detector Active</h1>
+    <p>This extension will alert you if it detects any fraud texts in your emails.</p>
+
+    <textarea id="emailText" rows="4" placeholder="Paste email text here"></textarea>
+    <button id="checkSpam">Check for Fraud</button>
+    <div id="result"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
