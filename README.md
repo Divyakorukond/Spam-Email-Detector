@@ -99,19 +99,19 @@ Open Gmail → Click an email → The extension will alert spam/ham status.
 ## 📷 Screenshots
 
 ### **1️⃣ Model Summary**
-![Model Summary](screenshots/model_summary.png)
+![Model Summary](spam_api/screenshots/model_summary.png)
 
 ### **2️⃣ Accuracy & Confusion Matrix**
-![Accuracy and Confusion Matrix](screenshots/accuracy_confusion_matrix.png)
+![Accuracy and Confusion Matrix](spam_api/screenshots/accuracy_confusionMatrix.png)
 
 ### **3️⃣ API Test in Insomnia**
-![Insomnia API Test](screenshots/insomnia_api_test.png)
+![Insomnia API Test](spam_api/screenshots/insomnia_api_test.png)
 
 ### **4️⃣ Chrome Extension – Manual Email Check**
-![Extension Popup](screenshots/enter_email_spam_detect.png)
+![Extension Popup](spam_api/screenshots/enter_email_spam_detect.png)
 
 ### **5️⃣ Chrome Extension – Gmail Spam Alert**
-![Gmail Spam Alert](screenshots/gmail_spam_alert.png)
+![Gmail Spam Alert](spam_api/screenshots/gmail_spam_alert.png)
 
 
 
