@@ -35,6 +35,7 @@ Spam_email/
 │── README.md
 │── .gitignore
 
+---
 
 ## 🛠 Setup & Installation
 
