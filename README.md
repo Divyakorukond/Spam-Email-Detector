@@ -45,27 +45,27 @@ Spam_email/
 ```bash
 git clone https://github.com/YOUR-USERNAME/Spam-Email-Detector.git
 cd Spam-Email-Detector/spam_api
-
+```
 2. Create Virtual Environment
-python -m venv venv
+```python -m venv venv```
 
 
 Activate it:
 
 Windows (PowerShell):
 
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 
 Mac/Linux:
 
-source venv/bin/activate
+```source venv/bin/activate```
 
 3. Install Dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ▶ Run FastAPI Server
-uvicorn app:app --reload
+```uvicorn app:app --reload```
 
 
 Server runs at: http://127.0.0.1:8000
@@ -77,14 +77,14 @@ http://127.0.0.1:8000/health
 🧪 Test the API
 
 Example Python test:
-
+```
 import requests
 
 res = requests.post("http://127.0.0.1:8000/predict", json={
     "message": "Congratulations! You have won $1000."
 })
 print(res.json())
-
+```
 🌐 Setup Chrome Extension
 
 Open Chrome → chrome://extensions
